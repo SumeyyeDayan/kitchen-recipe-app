@@ -4,5 +4,11 @@
         "yazan": "Ahmet",
         "yorum": "Güzel bir tarif!",
         "puan": 3
+    },
+    {
+        "yemek_adi": "Ozel Firin Somon",
+        "yazan": "Ali",
+        "yorum": "Lezzetli!",
+        "puan": 4
     }
 ]
