@@ -1,0 +1,23 @@
+[
+    {
+        "kullanici_adi": "Sumeyye",
+        "sifre": "123456.",
+        "bakiye": 0.0,
+        "rol": "Standart",
+        "ad_soyad": "S\u00fcmeyye Dayan"
+    },
+    {
+        "kullanici_adi": "mtv",
+        "sifre": "Mehmet.12345",
+        "bakiye": 30.0,
+        "rol": "Premium",
+        "ad_soyad": "Mehmet B."
+    },
+    {
+        "kullanici_adi": "Alina",
+        "sifre": "Alina.1234",
+        "bakiye": 0.0,
+        "rol": "Standart",
+        "ad_soyad": "Alina A."
+    }
+]
