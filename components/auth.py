@@ -14,7 +14,7 @@ def auth_ekrani():
         st.session_state["captcha_resmi"] = ImageCaptcha().generate_image(guvenlik_kodu)
 
     st.subheader("Hoş Geldiniz!")
-    tab1, tab2 = st.tabs(["Kaydol", "Giris Yap"])
+    tab1, tab2 = st.tabs([ "Giris Yap","Kaydol"])
 
 
     with tab1:

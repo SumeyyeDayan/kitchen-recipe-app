@@ -1,12 +1,5 @@
 [
     {
-        "kullanici_adi": "Sumeyye",
-        "sifre": "123456.",
-        "bakiye": 0.0,
-        "rol": "Standart",
-        "ad_soyad": "S\u00fcmeyye Dayan"
-    },
-    {
         "kullanici_adi": "mtv",
         "sifre": "Mehmet.12345",
         "bakiye": 30.0,
@@ -19,5 +12,12 @@
         "bakiye": 0.0,
         "rol": "Standart",
         "ad_soyad": "Alina A."
+    },
+    {
+        "kullanici_adi": "Irmak",
+        "sifre": "Irmak.1234",
+        "bakiye": 0.0,
+        "rol": "Standart",
+        "ad_soyad": "Irmak D"
     }
 ]
