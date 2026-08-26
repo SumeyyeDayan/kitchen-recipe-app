@@ -33,7 +33,7 @@ def asistan_sayfasi(aktif_kullanici):
     ilgili_yorumlar = [y for y in tum_yorumlar if y.get("yemek_adi") == secilen_ad]
 
 
-    if aktif_kullanici.rol != "Premium" and secilen_tarif["tip"]:
+    if aktif_kullanici.rol != "Premium" and secilen_tarif["tip"]== "Premium":
         st.error("Yorum görüntülemek için Premium Üye olmalısınız")
     else:
         if ilgili_yorumlar:
@@ -50,7 +50,7 @@ def asistan_sayfasi(aktif_kullanici):
         else:
             st.write("Bu yemek için hiç yorum yapılmamış.")
 
-    if aktif_kullanici.rol != "Premium" and secilen_tarif["tip"]:
+    if aktif_kullanici.rol != "Premium" and secilen_tarif["tip"] == "Premium":
         st.error("Yorum bırakmak için Premium Üye olmalısınız")
     else:
         with st.form("yorum_form", clear_on_submit=True):
